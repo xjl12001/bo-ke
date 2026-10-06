@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <!-- 基础元信息 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- 网站标题和描述 -->
+    <title>个人博客 - 分享技术与生活</title>
+    <meta name="description" content="一个专注于技术分享和生活记录的个人博客平台，涵盖前端开发、后端技术、编程经验和个人思考。" />
+    <meta name="keywords" content="个人博客,技术博客,前端开发,后端技术,编程,Web开发,React,TypeScript" />
+    <meta name="author" content="个人博客" />
+    
+    <!-- 网站图标 -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    
+    <!-- 主题颜色 -->
+    <meta name="theme-color" content="#F9F9F7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1A1A1A" media="(prefers-color-scheme: dark)" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="个人博客 - 分享技术与生活" />
+    <meta property="og:description" content="一个专注于技术分享和生活记录的个人博客平台" />
+    <meta property="og:site_name" content="个人博客" />
+    <meta property="og:locale" content="zh_CN" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="个人博客 - 分享技术与生活" />
+    <meta name="twitter:description" content="一个专注于技术分享和生活记录的个人博客平台" />
+    
+    <!-- 搜索引擎优化 -->
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="baiduspider" content="index, follow" />
+    
+    <!-- 移动端优化 -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="个人博客" />
+    
+    <!-- DNS预解析和预连接 -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    
+    <!-- 版权信息 -->
+    <meta name="copyright" content="© 2026 个人博客. 保留所有权利。" />
+    
+    <!-- 防止页面被嵌入iframe -->
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+    
+    <!-- 内容安全策略 -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    
+    <!-- 引用策略 -->
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+  </head>
+  <body>
+    <!-- 应用根节点 -->
+    <div id="root"></div>
+    
+    <!-- 无JavaScript提示 -->
+    <noscript>
+      <div style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: system-ui, -apple-system, sans-serif;
+        padding: 20px;
+        text-align: center;
+      ">
+        <h1 style="color: #1A1A1A; margin-bottom: 16px;">需要启用JavaScript</h1>
+        <p style="color: #666; max-width: 500px;">
+          此网站需要JavaScript才能正常运行。请在浏览器设置中启用JavaScript，然后刷新页面。
+        </p>
+      </div>
+    </noscript>
+    
+    <!-- 主应用脚本 -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
